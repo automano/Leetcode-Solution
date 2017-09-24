@@ -16,7 +16,7 @@ public class Main {
             modNumberArray[i] = numberArray[i] % 1000;
 
         }
-
+        // insert sort
         for( int i=0; i<length-1; i++ ) {
             for( int j=i+1; j>0; j-- ) {
                 if( modNumberArray[j-1] <= modNumberArray[j] )
